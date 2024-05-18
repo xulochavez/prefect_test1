@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "prefect_test1"
+version = "0.1.0"
+description = ""
+authors = ["Pablo Chao Andrade <pablochaoandrade@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+prefect = "^2.18"
+httpx = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
